@@ -42,7 +42,11 @@ Veamos el 7, y pensemos en potencias de 2. ¿Qué potencia de 2 es la más cerca
 
 2² nos da 4, así que vamos a usar 4 para empezar a descomponer 7. Tenemos que sumarle 3 para llegar a 7.  Con lo cual, podemos considerar que 7=4+3.
 
-Ahora nos queda 3, pero no hay potencias de 2 que nos den 3.Tenemos que descomponer 3 de la misma forma que hicimos con 7.Es decir, encontrar la suma de potencias de 2 que nos dará como resultado 3.Recuerda, tenemos que empezar con potencias de 2 iguales o menores que 3.  2¹ nos da 2, y 20 nos da 1.
+Ahora nos queda 3, pero no hay potencias de 2 que nos den 3.Tenemos que descomponer 3 de la misma forma que hicimos con 7.Es decir, encontrar la suma de potencias de 2 que nos dará como resultado 3.Recuerda, tenemos que empezar con potencias de 2 iguales o menores que 3.  2¹ nos da 2, y 2<sup>0</sup> nos da 1.
+
+Hemos usado tres potencias de 2 diferentes en este ejemplo.  Con lo cual, la representación binaria de 7 será de tres dígitos de largo.  Como la potencia de 2 más alta que necesitamos es 2², vamos a empezar contando cuántas veces hemos usado 2².  En binario, solo puede haber dos respuestas a esta pregunta: se ha usado una o cero veces. Si la hemos usado, lo indicamos con un 1.  Si no, lo indicamos con un 0.
+
+Haber usado 2² significa que escribimos un 1.  Ahora continuamos hacia abajo, contando el resto de potencias de 2 que hemos usado.  Hemos usado 2¹, así que lo indicamos con otro 1. Hemos usado 2<sup>0</sup>, así que usaremos 1 para el último espacio.
 
 En este caso trabajamos con el número `1992`
 - 2<sup>0</sup> = 1
