@@ -71,3 +71,77 @@ En este caso trabajamos con el número `1992`
 
 `Decimal`: 1992
 `Binary`: 11111001000
+
+# MIPS code from Mars 4.5
+
+
+- Crear un programa que sume dos números proporcionados por el usuario
+
+```
+#inicio del segmento de datos, se colocan los mensajes para el usuario en etiquetas
+.data 
+	ingreseNumero:.asciiz "Ingrese un número para sumar\n"
+	ingreseOtroNumero: .asciiz "Ingrese otro número\n"
+	resultado: .asciiz "El resultado es= "
+	fin: .asciiz "\n programa finalizado"
+
+.text 
+#pedir que ingrese el primer numero
+li $v0, 4
+la $a0, ingreseNumero
+syscall
+#se carga en sistema el número
+li $v0,5
+syscall
+#se mueve el resultado a otro registro
+move $t0, $v0
+#pedir que ingrese el segundo numero
+li $v0, 4
+la $a0, ingreseOtroNumero
+syscall
+#se carga en sistema el número
+li $v0,5
+syscall
+#se mueve 
+move $t1, $v0
+
+#se suman y se almacenan en registro $t2
+add $t2, $t0, $t1
+
+#se muestra el mensaje de resultado
+li $v0, 4
+la $a0, resultado
+syscall
+
+#se muestra el resultado
+li $v0,1
+move $a0, $t2
+syscall
+#fin de programa
+li $v0, 4
+la $a0, fin
+syscall
+
+#se termina el programa
+li $v0,10
+syscall
+
+
+
+```
+
+
+
+
+
+- Crear un programa que muestre su nombre
+
+```
+.data
+        nombre: .asciiz "\n Alexis \n"
+.text
+        main:
+              li $v0, 4
+              la $a0, nombre
+              syscall
+```
