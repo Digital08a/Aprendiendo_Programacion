@@ -145,3 +145,46 @@ En este caso trabajamos con el número `1992`
               la $a0, nombre
               syscall
 ```
+
+# Bucles e iteración
+
+Se debe usar un control de flujo iterativo para poder imprimir todos los números pares en el rango de números del 0 al 100. 
+
+`Declaración for`
+
+```javascript
+for (var i = 0; i <= 100; i++) 
+  {
+    if (i % 2 == 0)
+    { 
+    console.log(i);
+    }
+  }
+```
+
+`Declaración while`
+
+```javascript
+var i = 0;
+while (i <= 100) 
+  {
+    if (i % 2 == 0) 
+    {
+      console.log(i);
+      i++;
+    }
+  }
+```
+`Declaración DoWhile`
+
+```javascript
+var i = 0;
+do
+    {
+    if(i % 2 == 0)
+      {
+      console.log(i);
+      i++
+      }
+    }  while (i <= 100);
+```
