@@ -1,4 +1,4 @@
-|[Inicio](./README.md) |
+|[Inicio](README.md) |
 [Siguiente semana](/week02/README.md)|
 
 
