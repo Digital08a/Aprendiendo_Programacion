@@ -188,3 +188,52 @@ do
       }
     }  while (i <= 100);
 ```
+
+# Corrección de ejercicios
+
+Se encontraron dos posibles soluciones
+
+`la primera:` solo dejar la condición de la variable
+
+
+```javascript
+var cond = false;
+
+if ((cond)) 
+{
+console.log('The cond variable is true');
+} else {
+console.log('The cond variable is false');
+}
+```
+
+`la segunda:` agregar otro signo igual, para que realice la comparación exacta
+```javascript
+var cond = false;
+
+if ((cond == true)) 
+{
+console.log('The cond variable is true');
+} else {
+console.log('The cond variable is false');
+}
+```
+
+
+Se modifico el código modificando las condiciones, para que se cumpla lo solicitado
+
+```javascript
+var n = 100;
+
+if (n == 100) 
+    {
+    console.log('Este número es especial!');
+    }
+    else if (n < 1000 && n % 10 == 0) 
+    {
+    console.log('Este número es casí especial');
+    } else 
+    {
+    console.log('es solo un número regular');
+    }
+```
