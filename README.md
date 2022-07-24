@@ -2,8 +2,8 @@
 
 |Progreso| Syntax | Description |
 |--------| ----------- | ----------- |
-|Cursando|Week 1 | [Introduction to programming & Javascript](./week01/README.md)
-| x |Week 2 | [Javascript](./week02/README.md)
+|Completo|Week 1 | [Introduction to programming & Javascript](./week01/README.md)
+|Completo |Week 2 | [Javascript](./week02/README.md)
 | x |Week 3 | Javascript
 | x |Week 4 | Javascript & Pause Day
 | x |Week 5 | End Of Month & Typescript
