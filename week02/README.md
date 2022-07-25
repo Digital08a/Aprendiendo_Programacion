@@ -76,12 +76,11 @@ Mi perfil en [Codewars](https://www.codewars.com/users/Digit4l)
     <li> Una declaración <b>if</b> se ve así: </li>
     <code>
         if (condition) 
-        {<br>
-        statement_1;<br>
-        } else <br>
-        {<br>
-        statement_2;<br>}
-        <br>
+        {
+        statement_1;
+        } else 
+        {
+        statement_2;}
     </code>
     <li> Aquí, la condition puede ser cualquier expresión que se evalúe como <b>true</b> o <b>false</b>. 
     Si `condition` se evalúa como <b>true</b>, se ejecuta <b>statement_1</b>. De lo contrario, se ejecuta <b>statement_2</b>. <b>statement_1</b> y <b>statement_2</b> pueden ser cualquier declaración, incluidas otras declaraciones <b>if</b> anidadas.
