@@ -4,27 +4,39 @@
 Mi perfil en [Codewars](https://www.codewars.com/users/Digit4l) donde podrán ver mi progreso
 
 # Javascript
-- Números
-    - En expresiones que involucran valores numéricos y de cadena con el operador `+`, JavaScript convierte los valores numéricos en cadenas
-    - Operadores (+,-,/,\*)
-
-- Boolean
-    - Operadores (!, &&, ||)
-        - Solo puede tener los valores true o false.
-
-        - Estos se pueden combinar en expresiones lógicas mediante los operadores lógicos (Y, O, NO,). Un ejemplo de este tipo de expresiones serían:
-
-        - verdadero `Y` falso → falso
-        - falso `O` verdadero → verdadero
-        - `NO` verdadero → falso
-- string
+<details>
+<summary>Números</summary>
+    <ul>
+    <li> En expresiones que involucran valores numéricos y de cadena con el operador `+`, JavaScript convierte los valores numéricos en cadenas
+    </li>
+    <li> Operadores (+,-,/,\*) </li>
+    </ul>
+</details>
+<details>
+<summary>Boolean</summary>
+    <ul>
+        <li> Operadores (!, &&, ||)</li>
+        <li> Solo puede tener los valores true o false. </li>
+        <li> Estos se pueden combinar en expresiones lógicas mediante los operadores lógicos (Y, O, NO,). Un ejemplo de este tipo de expresiones serían:
+        <ul>
+            <li> verdadero <b>Y</b> falso → falso </li>
+            <li> falso <b>O</b> verdadero → verdadero</li>
+            <li> <b>NO</b> verdadero → falso </li>
+        </ul>
+        </li>
+    </ul>
+</details>
+<details>
+<summary>String</summary>
     - Una secuencia de caracteres que representan un valor de texto. Por ejemplo: "Hola"
     - propiedades (length, charAt, [])
     - null
         - Una palabra clave especial que denota un valor `nulo`. (Dado que JavaScript distingue entre mayúsculas y minúsculas, `null` no es lo mismo que `Null`, `NULL` o cualquier otra variante).
     - undefined
         - Una propiedad de alto nivel cuyo valor no está definido.
-- comentarios en Javascript
+</details>
+<details>
+<summary>Comentarios en Javascript</summary>
     - linea comentada
         
         ```javascript
@@ -35,11 +47,13 @@ Mi perfil en [Codewars](https://www.codewars.com/users/Digit4l) donde podrán ve
         /* bloque 
         comentado*/
         ```
+</details>
 - consola
 - Bucles
     - While
     - For
-- Expresiones Condicionales
+<details>
+<summary>Expresiones Condicionales</summary>
     - Una expresión condicional es un conjunto de instrucciones que se ejecutarán si una condición especificada es verdadera. JavaScript admite dos expresiones condicionales: `if...else` y `switch`.
     - Una declaración if se ve así:
         ```javascript
@@ -94,6 +108,7 @@ Mi perfil en [Codewars](https://www.codewars.com/users/Digit4l) donde podrán ve
         - `Declaraciones break`
 
             La declaración opcional break asociada con cada cláusula `case` asegura que el programa salga de `switch` una vez que se ejecuta la instrucción coincidente, y luego continúa la ejecución en la declaración que sigue a `switch`. Si se omite `break`, el programa continúa la ejecución dentro de la instrucción `switch` (y evaluará el siguiente `case`, y así sucesivamente).
+</details>
 
 - Funciones
 - Diferencia entre argumentos y parametros
