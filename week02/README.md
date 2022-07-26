@@ -147,13 +147,11 @@ Mi perfil en [Codewars](https://www.codewars.com/users/Digit4l)
     <li>Una lista de parámetros de la función, entre paréntesis y separados por comas.</li>
     <li>Las declaraciones de JavaScript que definen la función, encerradas entre llaves, <code>{ ... }</code></li>
     <b>ejemplo</b>
-
-    ```    javascript
+    <javascript>    
         function square(number) {
         return number * number;
         }   
-    ``` 
-
+    </javascript>
 </details>
 <details><summary>Diferencia entre argumentos y parametros</summary></details>
 <details><summary>Parametros predeterminados</summary></details>
