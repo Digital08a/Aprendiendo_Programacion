@@ -137,8 +137,24 @@ Mi perfil en [Codewars](https://www.codewars.com/users/Digit4l)
 </details>
     </ul>
 </details>
-<details><summary>Funciones</summary></details>
+<details><summary>Funciones</summary>
+    Las funciones son uno de los bloques de construcción y es similar a un procedimiento 
+    Una <b>función</b> es un conjunto de instrucciones que realiza una tarea o calcula un valor, pero para que un procedimiento califique como función, debe tomar alguna entrada y devolver una salida donde hay alguna relación obvia entre la entrada y la salida. Para usar una función, debes definirla en algún lugar del ámbito desde el que deseas llamarla.
+    <details><summary>Definir funciones</summary>
+    </details>
+    <ul>
+    <li>El nombre de la función.</li>
+    <li>Una lista de parámetros de la función, entre paréntesis y separados por comas.</li>
+    <li>Las declaraciones de JavaScript que definen la función, encerradas entre llaves, <code>{ ... }</code></li>
+    <b>ejemplo</b>
+
+    ```    javascript
+        function square(number) {
+        return number * number;
+        }   
+    ``` 
+
+</details>
 <details><summary>Diferencia entre argumentos y parametros</summary></details>
 <details><summary>Parametros predeterminados</summary></details>
 <details><summary>Matriz de argumentos</summary></details>
-#
