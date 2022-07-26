@@ -33,7 +33,7 @@ Mi perfil en [Codewars](https://www.codewars.com/users/Digit4l)
     <li> propiedades (length, charAt, [])</li>
     <li> null </li>
     <ul>
-        <li> Una palabra clave especial que denota un valor <br>nulo</br>. (Dado que JavaScript distingue entre mayúsculas y minúsculas, <br>null</br> no es lo mismo que <br>Null</br>, <br>NULL</br> o cualquier otra variante). </li>
+        <li> Una palabra clave especial que denota un valor <b>nulo</b>. (Dado que JavaScript distingue entre mayúsculas y minúsculas, <b>null</b> no es lo mismo que <b>Null</b>, <b>NULL</b> o cualquier otra variante). </li>
     </ul>
     <li> undefined </li>
     <ul>
@@ -74,19 +74,16 @@ Mi perfil en [Codewars](https://www.codewars.com/users/Digit4l)
 <details><summary><b>if... else</b></summary>
     <ul>
     <li> Una declaración <b>if</b> se ve así: </li>
-    <code>
         if (condition) 
         {
         statement_1;
         } else 
         {
         statement_2;}
-    </code>
     <li> Aquí, la condition puede ser cualquier expresión que se evalúe como <b>true</b> o <b>false</b>. 
     Si `condition` se evalúa como <b>true</b>, se ejecuta <b>statement_1</b>. De lo contrario, se ejecuta <b>statement_2</b>. <b>statement_1</b> y <b>statement_2</b> pueden ser cualquier declaración, incluidas otras declaraciones <b>if</b> anidadas.
     </li>
     <li> También puedes componer las declaraciones usando else if para que se prueben varias condiciones en secuencia, de la siguiente manera: </li>
-    <code>
         if (condition_1) 
         {<br>
         statement_1; <br>
@@ -97,7 +94,6 @@ Mi perfil en [Codewars](https://www.codewars.com/users/Digit4l)
         } else {<br>
         statement_last;<br>
         }
-       </code>
     <li> En el caso de múltiples condiciones, solo se ejecutará la primera condición lógica que se evalúe como <b>true</b> </li>
     </ul>
 </details>
@@ -105,20 +101,18 @@ Mi perfil en [Codewars](https://www.codewars.com/users/Digit4l)
     <ul>
         <li> Una instrucción <b>switch</b> permite que un programa evalúe una expresión e intente hacer coincidir el valor de la expresión con una etiqueta <b>case</b>. Si la encuentra, el programa ejecuta la declaración asociada.
         Una <b>instrucción</b> switch se ve así: </li>
-        <code>
-        switch (expression) {<br>
-            case label_1:<br>
-                statements_1<br>
-                [break;]<br>
-            case label_2:<br>
-                statements_2<br>
-                [break;]<br>
-                …<br>
-            default:<br>
-                statements_def<br>
-                [break;]<br>
+        switch (expression) {
+            case label_1:
+                statements_1
+                [break;]
+            case label_2:
+                statements_2
+                [break;]
+                …
+            default:
+                statements_def
+                [break;]
             }
-        </code>
         <li> JavaScript evalúa la instrucción <b>switch</b> anterior de la siguiente manera:</li>
         <ul>
             <li> El programa primero busca una cláusula case con una etiqueta que coincida con el valor de expresión y luego transfiere el control a esa cláusula, ejecutando las declaraciones asociadas.</li>
@@ -138,20 +132,53 @@ Mi perfil en [Codewars](https://www.codewars.com/users/Digit4l)
     </ul>
 </details>
 <details><summary>Funciones</summary>
-    Las funciones son uno de los bloques de construcción y es similar a un procedimiento 
-    Una <b>función</b> es un conjunto de instrucciones que realiza una tarea o calcula un valor, pero para que un procedimiento califique como función, debe tomar alguna entrada y devolver una salida donde hay alguna relación obvia entre la entrada y la salida. Para usar una función, debes definirla en algún lugar del ámbito desde el que deseas llamarla.
+<ul>
+    <li>Las funciones son uno de los bloques de construcción y es similar a un procedimiento. </li>
+    <li>Una <b>función</b> es un conjunto de instrucciones que realiza una tarea o calcula un valor, pero para que un procedimiento califique como función, debe tomar alguna entrada y devolver una salida donde hay alguna relación obvia entre la entrada y la salida. Para usar una función, debes definirla en algún lugar del ámbito desde el que deseas llamarla.</li>
     <details><summary>Definir funciones</summary>
-    </details>
     <ul>
     <li>El nombre de la función.</li>
     <li>Una lista de parámetros de la función, entre paréntesis y separados por comas.</li>
     <li>Las declaraciones de JavaScript que definen la función, encerradas entre llaves, <code>{ ... }</code></li>
-    <b>ejemplo</b>
-    <javascript>    
+    <b>ejemplo</b>    
         function square(number) {
         return number * number;
-        }   
-    </javascript>
+        }
+    <li>La función <code>square</code> toma un parámetro, llamado <code>number</code>. La función consta de una declaración que dice devuelva el parámetro de la función (es decir, <code>number</code>) multiplicado por sí mismo. La instrucción <code>return</code> especifica el valor devuelto por la función:<br>
+    <code>return number * number; </code></li>
+    </ul>
+</ul>
+<ul>
+    <details><summary>Expresion <b>function</b></summary>
+    <ul>
+        <li>Si bien la declaración de función anterior sintácticamente es una declaración, las funciones también se pueden crear mediante una expresión function.</li>
+        <li>Esta función puede ser anónima; no tiene por qué tener un nombre. Por ejemplo, la función square se podría haber definido como:</li>
+        <li><code>
+        const square = function(number) { return number * number }
+        var x = square(4) // x obtiene el valor 16
+        </code></li>
+    </ul>
+</details>
+    <details><summary>Llamar <b>function</b></summary>
+    <ul>
+    <li><b>Definir</b> una función no la ejecuta. Definirla simplemente nombra la función y especifica qué hacer cuando se llama a la función.</li>
+    <li><b>Llamar</b> a la función en realidad lleva a cabo las acciones especificadas con los parámetros indicados. Por ejemplo, si defines la función <code>square</code>, podrías llamarla de la siguiente manera:</li>
+    <li><code>square(5);</code></li>
+    <li>La declaración anterior llama a la función con un argumento de <code>5</code>. La función ejecuta sus declaraciones y devuelve el valor <code>25</code>.
+    Las funciones deben estar dentro del ámbito cuando se llaman, pero la declaración de la función se puede elevar (cuando aparece debajo de la llamada en el código), como en este ejemplo: </li>
+    <li><code>console.log(square(5));    
+    /* ... */
+    function square(n) { return n * n }
+    </code></li>
+    <li>El ámbito de una función es la función en la que se declara (o el programa completo, si se declara en el nivel superior).</li>
+    </ul>
+</details>
+    <details><summary>Ámbito de <b>function</b></summary>
+    <ul>
+    <li>No se puede acceder a las variables definidas dentro de una función desde cualquier lugar fuera de la función, porque la variable se define solo en el ámbito de la función. Sin embargo, una función puede acceder a todas las variables y funciones definidas dentro del ámbito en el que está definida.</li>
+    <li>En otras palabras, una función definida en el ámbito global puede acceder a todas las variables definidas en el ámbito global. Una función definida dentro de otra función también puede acceder a todas las variables definidas en su función principal y a cualquier otra variable a la que tenga acceso la función principal.</li>
+    </ul>
+</ul>
 </details>
 <details><summary>Diferencia entre argumentos y parametros</summary></details>
 <details><summary>Parametros predeterminados</summary></details>
