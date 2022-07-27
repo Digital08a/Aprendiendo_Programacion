@@ -183,3 +183,9 @@ Mi perfil en [Codewars](https://www.codewars.com/users/Digit4l)
 <details><summary>Diferencia entre argumentos y parametros</summary></details>
 <details><summary>Parametros predeterminados</summary></details>
 <details><summary>Matriz de argumentos</summary></details>
+
+# Ejercicios
+- ```javascript
+    function multiply(a, b){
+    return a * b
+    }```    
