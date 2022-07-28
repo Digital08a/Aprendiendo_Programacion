@@ -185,7 +185,26 @@ Mi perfil en [Codewars](https://www.codewars.com/users/Digit4l)
 <details><summary>Matriz de argumentos</summary></details>
 
 # Ejercicios
+- multiplicación de dos números
+
 - ```javascript
     function multiply(a, b){
     return a * b
-    }```    
+    }
+    ```    
+- se dara un String y tendrá que devolver la suma de todos los caracteres como un int
+la funcion debera poder manejar todos los caracteres ASCII
+
+```javascript
+
+    let saludo = "Mary Had A Little Lamb";
+    let longitud = saludo.length;
+    console.log(longitud)
+    let suma=0;
+    for (let i = 0; i < longitud; i++) {
+        suma= saludo.charCodeAt(i)+suma;
+    }
+    console.log(suma);
+    console.log(longitud)
+
+``` 
