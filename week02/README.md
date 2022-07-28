@@ -208,3 +208,18 @@ la funcion debera poder manejar todos los caracteres ASCII
     console.log(longitud)
 
 ``` 
+- Escribir una funcón que tome un número y devuelva un caracter ASCCI
+
+```javascript
+let numero = 65 
+
+    console.log( String.fromCharCode(numero))
+```
+
+- implementa una función que sume 2 numeros juntos y devuelva la suma en binario
+
+```javascript
+let a = 5
+let b = 9
+console.log ((a + b).toString(2)); 
+```
