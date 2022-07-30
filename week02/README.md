@@ -306,3 +306,26 @@ function notaFinal (examen, proyecto) {
     return resultado
     }
 ```
+
+- Eliminar todos los signos de exclamación al final de cada frase
+```javascript
+/*
+remove("Hi!") === "Hi"
+remove("Hi!!!") === "Hi"
+remove("!Hi") === "!Hi"
+remove("!Hi!") === "!Hi"
+remove("Hi! Hi!") === "Hi! Hi"
+*/
+
+let a = "Hi!";
+let b = "Hi!!!";
+let c = "!Hi!";
+let d = "!Hi!";
+let e = "Hi! Hi!";
+console.log (a.replace(/!+$/, ''));
+console.log (b.replace(/!+$/, ''));
+console.log (c.replace(/!+$/, ''));
+console.log (d.replace(/!+$/, ''));
+console.log (e.replace(/!+$/, ''));
+
+```
