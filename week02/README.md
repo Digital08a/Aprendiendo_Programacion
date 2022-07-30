@@ -223,3 +223,46 @@ let a = 5
 let b = 9
 console.log ((a + b).toString(2)); 
 ```
+- Crear una función que calcule la nota final de un estudiante dependiendo de 2 parametros: 
+la nota del examen y el número de proyecto realizados
+
+está función debe tomar 2 argumentos: 
+examen- nota del examen (de 0-100)
+proyectos- número de proyectos completados (0 en adelante)
+
+está función debe devolver un número (califición final).
+hay 4 tipos de calificaciones
+
+100, si la nota del examen es superior a 90 o 
+si el número de proyectos realizados es superior a 10.
+
+90, si la nota del examen es superior a 75 
+y si el número de proyectos realizados es como mínimo de 5.
+
+75, si la nota del examen es superior a 50 y 
+si el número de proyectos realizados es como mínimo de 2.
+0, en los demás casos
+
+```javascript
+
+let examen= 55;
+let proyecto=5;
+notaFinal()
+console.log ("la nota final es "+notaFinal(examen, proyecto))
+
+
+function notaFinal (examen, proyecto) {
+    let resultado = 0;
+    if(examen >90 || proyecto >10){
+        resultado=100;
+    }else
+    if(examen >75  && proyecto>=5){
+        resultado=90
+    }else{
+        if(examen >50 && proyecto >=2){
+            resultado=75
+        }
+    }
+    return resultado
+    }
+```
