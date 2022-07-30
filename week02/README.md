@@ -62,8 +62,48 @@ Mi perfil en [Codewars](https://www.codewars.com/users/Digit4l)
 <details>
 <summary>Bucles</summary>
     <ul>
-    <li>While</li>
-    <li>For</li>
+    <details><summary>For</summary>
+    <ul> 
+    <li>Crear un bucle que consiste en tres expresiones opcionales, encerradas en paréntesis y separadas por puntos y comas, seguidas de una sentencia ejecutada en un bucle. </li>
+    <li> <code>for ([expresion-inicial]; [condicion]; [expresion-final])sentencia</code></li>
+    <li> <code>expresion-inicial</code>
+    Una expresión (incluyendo las expresiones de asignación) o la declaración de variable. Típicamente se utiliza para usarse como variable contador. Esta expresión puede opcionalmente declarar nuevas variables con la palabra clave <b>var</b>. Estas variables no son locales del bucle, es decir, están en el mismo alcance en el que está el bucle <b>for</b>. El resultado de esta expresión es descartado.
+    <li><code>condicion</code> Una expresión para ser evaluada antes de cada iteración del bucle. Si esta expresión se evalúa como verdadera, se ejecuta <b>sentencia</b>. Esta comprobación condicional es opcional. Si se omite, la condición siempre se evalúa como verdadera. Si la expresión se evalúa como falsa, la ejecución salta a la primera expresión que sigue al constructor de <b>for</b>.</li>
+    </li>
+    <li><code>expresion-final</code>Una expresión para ser evaluada al final de cada iteración del bucle. Esto ocurre antes de la siguiente evaluación de la <b>condicion</b>. Generalmente se usa para actualizar o incrementar la variable contador. </li>
+    <li><code>Sentencia</code>Una sentencia que se ejecuta mientras la condición se evalúa como verdadera. Para ejecutar múltiples sentencias dentro del bucle, utilice una sentencia <code> block ({ ... }) </code>para agrupar aquellas sentecias.</li>
+    <li><code>Ejemplo</code> La siguiente sentencia for comienza mediante la declaración de la variable i y se inicializa a 0. Comprueba que i es menor que nueve, realiza las dos sentencias con éxito e incrementa i en 1 después de cada pase del bucle.</li>
+    <code>for (var i = 0; i < 9; i++) {
+       n += i;
+       mifuncion(n);
+    }</code>
+    <ul>
+    </details>
+   <details><summary>While</summary>
+   <ul><li>Crear un bucle que ejecuta una sentencia especificada mientras cierta condición se evalúe como verdadera. Dicha condición es evaluada antes de ejecutar la sentencia</li>
+   <li><b>Sintaxis</b>
+    <code>   while (condicion)
+                sentencia</code></li>
+    <li><b>Condición </b>Una expresión que se evalúa antes de cada paso del bucle. Si esta condición se evalúa como verdadera, se ejecuta <code>sentencia</code>. Cuando la condición se evalúa como false, la ejecución continúa con la <code>sentencia</code> posterior al bucle <code>while</code>.</li>
+    <li><b>sentencia</b>
+    Una sentecia que se ejecuta mientras la condición se evalúa como verdadera. Para ejecutar múltiples sentencias dentro de un bucle, utiliza una sentencia <code>block ({ ... }) </code>para agrupar esas sentencias.</li>
+    <li><b>Ejemplo </b>
+    El siguiente bucle <code>while</code> itera mientras <code>n</code> es menor que tres.
+    <code>n = 0;
+        x = 0;
+        while (n < 3) {
+          n ++;
+          x += n;
+        }</code>
+        Cada interación, el bucle incrementa <code>n</code> y la añade a <code>x</code>. Por lo tanto, <b>x</b> y <b>n</b> toman los siguientes valores:
+        <ul>
+        <li>Después del primer pase: <code>n</code> = 1 y <code>x</code> = 1 </li>
+        <li>Después del segundo pase: <code>n</code> = 2 y <code>x</code> = 3 </li>
+        <li>Después del tercer pase: <code>n</code> = 3 y <code>x</code> = 6 </li>
+        </ul>
+     Después de completar el tercer pase, la condición <code>n</code> < 3 no será verdadera más tiempo, por lo que el bucle terminará.
+   </ul>
+   </details>
     </ul>
 </details>
 
