@@ -329,3 +329,27 @@ console.log (d.replace(/!+$/, ''));
 console.log (e.replace(/!+$/, ''));
 
 ```
+- crear una función para eliminar vocales minúsculas
+
+```javascript
+let nombre = "Alexis";
+console.log(nombre.replace(/[aeiou]/g, " "));
+
+```
+# string.replace
+
+Solo tenemos 3 modificadores:
+
+`i` viene de la palabra Insensitivo, osea no es sensible a mayusuclas o minusculas
+
+`g` hace referencia a Global, debe afectar a todas las palabras que encuentren en la cadena
+si no se escribe la letra g, solo afecta a la primera
+
+`m` hace referencia a multiples líneas
+
+| Sintaxis | defiinición |
+|----------|-------------|
+|[abc]| Encuentra cualquier carácter entre los paréntesis |
+|[^abc]| Encuentra cualquier carácter que NO esté entre los paréntesis |
+|[0-9]| Encuentra cualquier carácter entre los paréntesis (cualquier dígito) |
+|[^0-9]| Encuentra cualquier carácter que NO esté entre los paréntesis (cualquier no-dígito) |
