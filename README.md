@@ -1,4 +1,4 @@
-# core-code-from-scratch-readme
+# Aprendiendo Programación desde cero
 
 |Progreso| Syntax | Description |
 |--------| ----------- | ----------- |
