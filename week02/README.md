@@ -1,3 +1,5 @@
+|[Inicio](/README.md) |
+[Siguiente semana](/week03/README.md)|
 # semana 2
 
 # Code wars
