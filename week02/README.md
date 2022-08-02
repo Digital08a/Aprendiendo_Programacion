@@ -391,3 +391,27 @@ while(numDigitsCount > 1) {
 return numMultCount;
 }
 ```
+- ¡A jugar! ¡Tienes que devolver qué jugador ha ganado! En caso de empate, ¡devuelve Empate!.
+
+Ejemplos(Entrada1, Entrada2 --> Salida):
+```
+"tijeras", "papel" --> "¡El jugador 1 ha ganado!"
+"tijera", "piedra" --> "¡Jugador 2 ha ganado!"
+"papel", "papel" --> "Empate!"
+
+```
+
+```javascript
+let p1 = "Piedra";
+let p2= "Tijeras";
+
+const rps = (p1, p2) => {
+    if (p1 === "Tijeras" && p2 === "Papel") return "Jugador 1 gana!!";
+    if (p1 === "Papel" && p2 === "Piedra") return "Jugador 1 gana!!";
+    if (p1 === "Piedra" && p2 === "Tijeras") return "Jugador 1 gana!!";
+    if (p1 === p2) return "Empate!";
+    return "Jugador 2 gana!!";
+};
+console.log(rps(p1,p2))
+
+```
