@@ -355,3 +355,39 @@ si no se escribe la letra g, solo afecta a la primera
 |[^abc]| Encuentra cualquier carácter que NO esté entre los paréntesis |
 |[0-9]| Encuentra cualquier carácter entre los paréntesis (cualquier dígito) |
 |[^0-9]| Encuentra cualquier carácter que NO esté entre los paréntesis (cualquier no-dígito) |
+
+- Escriba una función `persistencia`, que tome un parámetro positivo `num` y devuelva su persistencia multiplicativa, que es el número de veces que debe multiplicar los dígitos de num hasta llegar a un solo dígito.
+
+Por ejemplo (Entrada --> Salida):
+
+```
+ejemplo 
+39 --> 3 (porque 3*9 = 27, 2*7 = 14, 1*4 = 4 Y 4 tiene solo un digito)
+999 --> 4 (porque 9*9*9 = 729, 7*2*9 = 126, 1*2*6 = 12, y finalmente 1*2 = 2)
+4 --> 0 (porque 4 ya es un número de un dígito)
+```
+
+```javascript
+let num = 999;
+console.log(persistence(num))
+
+function persistence(num) {
+
+var numString = num.toString();
+var numDigitsCount = numString.length;
+var numMultCount = 0;
+var numMultResult = 1;
+while(numDigitsCount > 1) {
+
+  numMultResult = 1;
+  for(var i = 0; i <= numString.length-1; i++) {
+      numMultResult = numMultResult * Number(numString[i]);
+    }
+  num = numMultResult;
+  numMultCount = numMultCount + 1;
+  numString = num.toString();
+  numDigitsCount = numString.length;
+}
+return numMultCount;
+}
+```
