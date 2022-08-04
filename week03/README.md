@@ -44,3 +44,34 @@ replace para reemplazar los ceros
 length encuentra la longitud, al ser solo ceros, devuelve el número exacto
 */
 ```
+
+
+- Su tarea consiste en ordenar una cadena dada. 
+Cada palabra de la cadena contendrá un único número. 
+Este número es la posición que debe tener la palabra en el resultado.
+
+Nota: Los números pueden ser del 1 al 9. 
+Así que el 1 será la primera palabra (no el 0).
+
+Si la cadena de entrada está vacía, devolverá una cadena vacía. 
+Las palabras de la cadena de entrada sólo contendrán números consecutivos válidos.
+
+```javascript
+
+let names= ["Alex", "David"]
+function likes(names) {
+    switch(names.length) {
+    case 0:
+        return 'no one likes this';
+    case 1:
+        return names[0] +  ' likes this';
+    case 2:
+        return names[0] + ' and '+ names[1] + ' like this';
+    case 3:
+        return names[0]+', '+ names[1] + ' and ' + names[2] + ' like this';
+    default:
+        return names[0]+ ', '+ names[1] + ' and ' + (names.length-2 ) + ' others like this';
+    }
+}
+console.log(likes(names) );
+```
