@@ -80,3 +80,28 @@ function likes(names) {
 }
 console.log(likes(names) );
 ```
+- Su tarea consiste en ordenar una cadena dada. 
+Cada palabra de la cadena contendrá un único número. 
+Este número es la posición que debe tener la palabra en el resultado.
+
+Nota: Los números pueden ser del 1 al 9. Así que el 1 será la primera palabra (no el 0).
+
+Si la cadena de entrada está vacía, devolverá una cadena vacía. 
+Las palabras de la cadena de entrada sólo contendrán números consecutivos válidos.
+```
+ejemplo
+"is2 Thi1s T4est 3a"  -->  "Thi1s is2 3a T4est"
+"4of Fo1r pe6ople g3ood th5e the2"  -->  "Fo1r the2 g3ood 4of th5e pe6ople"
+""  -->  ""
+```
+
+```javascript
+function order(words){
+    // =)
+    return words && words.split(' ')
+    .map(word => word.match(/\d/) + word)
+    .sort()
+    .map(word => word.slice(1))
+    .join(' ');
+}
+```
