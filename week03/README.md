@@ -45,7 +45,7 @@ length encuentra la longitud, al ser solo ceros, devuelve el número exacto
 */
 ```
 
-
+#
 - Su tarea consiste en ordenar una cadena dada. 
 Cada palabra de la cadena contendrá un único número. 
 Este número es la posición que debe tener la palabra en el resultado.
@@ -80,6 +80,7 @@ function likes(names) {
 }
 console.log(likes(names) );
 ```
+#
 - Su tarea consiste en ordenar una cadena dada. 
 Cada palabra de la cadena contendrá un único número. 
 Este número es la posición que debe tener la palabra en el resultado.
@@ -105,3 +106,26 @@ function order(words){
     .join(' ');
 }
 ```
+#
+- Mueve la primera letra de cada palabra al final de la misma, luego añade "ay" al final de la palabra. Deja los signos de puntuación sin tocar.
+
+
+```javascript
+function pigIt(str){
+    return str.replace(/\b(\w)(\w*)\b/g,"$2$1ay");
+}
+}
+```
+
+Utilizamos expreciones [regulares](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Regular_Expressions#crear_una_expresión_regular) que son patrones que se utilizan para hacer coincidir combinaciones de caracteres en cadenas
+
+#
+
+
+
+
+
+
+
+
+
