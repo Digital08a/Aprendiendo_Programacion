@@ -120,10 +120,18 @@ function pigIt(str){
 Utilizamos expreciones [regulares](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Regular_Expressions#crear_una_expresión_regular) que son patrones que se utilizan para hacer coincidir combinaciones de caracteres en cadenas
 
 #
+```
+diferencia entre
+"2" + 2 =
+
+"2" * 2 =
 
 
+"2" == 2
+"2" === 2
 
 
+```
 
 
 
