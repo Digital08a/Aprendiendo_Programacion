@@ -133,7 +133,37 @@ diferencia entre
 
 ```
 
+- Primer intento de sistema de logeo de 3 intentos 
 
+```
+<script>
+
+    var inicioDeSesionRegistrado = "Alex";
+    var contrasenhaRegistrada = "Alex321";
+
+    var maximoIntentos = 3;
+    var intentoActual = 1;
+
+    while(intentoActual <= maximoIntentos){
+        var inicioDeSesionIngresado = prompt("Ingrese su usuario");
+        var contrasenhaIngresada = prompt("Ingrese su contraseña");
+
+        if(inicioDeSesionRegistrado == inicioDeSesionIngresado && contrasenhaRegistrada == contrasenhaIngresada){
+            alert("Bienvenido al sistema " + inicioDeSesionIngresado);
+            intentoActual = maximoIntentos; // Lo hice bien, así que paso todos los intentos que falten y salgo del loop. Allá abajo aumentará +1! 
+        } else {
+            if (intentoActual == 3) {
+                alert("Agotaste el número permitido de intentos!");
+            } else {
+                alert("Inicio de sesión inválido. Favor intente de nuevo");
+            }
+        }
+
+        intentoActual ++;  
+    }
+
+</script>
+```
 
 
 
