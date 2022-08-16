@@ -1,6 +1,7 @@
-|[Inicio](/README.md) |
-[Siguiente semana](/week03/README.md)|
-# semana 2
+|[Semana Anterior](/week01/README.md) |
+| [Inicio](/README.md) |
+[Siguiente semana](/week03/README.md) |
+# Semana 2
 
 # Code wars
 Mi perfil en [Codewars](https://www.codewars.com/users/Digit4l) 

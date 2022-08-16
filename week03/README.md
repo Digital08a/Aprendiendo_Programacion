@@ -1,5 +1,6 @@
-|[Inicio](/README.md) |
-[Siguiente semana](/week04/README.md)|
+|[Semana Anterior](/week02/README.md) |
+|[ Inicio](/README.md) |
+[Siguiente semana ](/week04/README.md)|
 
 # Javascript
 
@@ -120,24 +121,11 @@ function pigIt(str){
 Utilizamos expreciones [regulares](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Regular_Expressions#crear_una_expresión_regular) que son patrones que se utilizan para hacer coincidir combinaciones de caracteres en cadenas
 
 #
-```
-diferencia entre
-"2" + 2 =
-
-"2" * 2 =
-
-
-"2" == 2
-"2" === 2
-
-
-```
 
 - Primer intento de sistema de logeo de 3 intentos 
 
-```
-<script>
-
+<details>
+  <summary>solución</summary>
     var inicioDeSesionRegistrado = "Alex";
     var contrasenhaRegistrada = "Alex321";
 
@@ -161,9 +149,7 @@ diferencia entre
 
         intentoActual ++;  
     }
-
-</script>
-```
+</details>
 
 
 
