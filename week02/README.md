@@ -76,10 +76,12 @@ Mi perfil en [Codewars](https://www.codewars.com/users/Digit4l)
     <li><code>expresion-final</code>Una expresión para ser evaluada al final de cada iteración del bucle. Esto ocurre antes de la siguiente evaluación de la <b>condicion</b>. Generalmente se usa para actualizar o incrementar la variable contador. </li>
     <li><code>Sentencia</code>Una sentencia que se ejecuta mientras la condición se evalúa como verdadera. Para ejecutar múltiples sentencias dentro del bucle, utilice una sentencia <code> block ({ ... }) </code>para agrupar aquellas sentecias.</li>
     <li><code>Ejemplo</code> La siguiente sentencia for comienza mediante la declaración de la variable i y se inicializa a 0. Comprueba que i es menor que nueve, realiza las dos sentencias con éxito e incrementa i en 1 después de cada pase del bucle.</li>
-    <code>for (var i = 0; i < 9; i++) {
-       n += i;
-       mifuncion(n);
-    }</code>
+    <code>  
+            for (var i = 0; i < 9; i++) {
+            n += i;
+            mifuncion(n);
+            }
+    </code>
     <ul>
     </details>
    <details><summary>While</summary>
