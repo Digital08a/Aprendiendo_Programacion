@@ -2,6 +2,68 @@
 | [Inicio](/README.md) |
 [Siguiente semana ](/week05/README.md)|
 
+# JavaScript
+
+<details>
+  <summary>Un pequeño Quiz/repazo para reforzar lo visto hasta el momento con JS</summary>
+  <ul>  
+    <details>
+    <summary>¿Qué es un array?</summary>
+      Es una estructura de datos de tipo objeto.
+    </details>
+    <details>
+    <summary>¿Qué es una variable?</summary>
+      Es la representación de un espacio en memoria.
+    </details>
+    <details>
+    <summary>¿Qué resultado podría esperar de ésta validación? 
+    <code>4 == “4”</code>
+    </summary>
+      TRUE
+    </details>
+    <details>
+    <summary>¿Cuáles son los tipos de scope tenemos? </summary>
+    Scope global y Scope local.
+    </details>
+    <details>
+    <summary>¿Qué resultado podría esperar de ésta validación? 
+    <code>1 = “1”</code></summary>
+    Syntax Error
+    </details>
+    <details>
+    <summary>¿Qué podemos esperar al llamar al método .pop(); ? </summary>
+    Borrar el último elemento de mi array.
+    </details>
+    <details>
+    <summary>¿Qué resultado podría esperar de ésta validación? 
+    <code>6 === “6”</code></summary>
+    FALSE
+    </details>
+    <details>
+    <summary>¿Qué método llamaríamos para saber el index de un elemento de mi array? </summary>
+    indexOf()
+    </details>
+    <details>
+    <summary>¿Por qué decimos que JavaScript es un lenguaje dinámico?</summary>
+    Porque es un lenguaje que corre en tiempo de ejecución.
+    </details>
+    <details>
+    <summary>¿Cómo podemos crear notas o comentarios en nuestro JavaScript?</summary>
+    utilizando //... /*  */
+    </details>
+    <details>
+    <summary>¿Qué significa Coerción en JS?</summary>
+    Es el proceso de convertir el valor de un tipo a otro.
+    </details>
+    <details>
+    <summary>¿Qué es el hoisting en Javascript?</summary>
+    Es cuando las declaraciones de variables y funciones se procesan antes de ejecutar cualquier código.
+    </details>
+
+  </ul>
+</details>
+
+
 
 # Canvas
 
