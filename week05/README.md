@@ -35,7 +35,9 @@ Valores y Principios Ágiles
 Hay muchas formas para ser agil pero ser agil es un cambio de cultura empresarial y es realmente vivir 4 valores y ser guiado por 12 principios
 con esto se puede producir de una forma más rápida, darle valor al usuario final
 y va a resultar todo más fácil
-Los 4 valores son
+Los 4 valores son:
+
+<img src="https://github.com/Digital08a/Aprendiendo_Programacion/blob/main/week05/img/Scrum%201.png"/>
 
 
 <br>
