@@ -208,7 +208,3 @@ Ejemplo
     }
 
 </details>
-
-#
-
-- 

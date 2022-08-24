@@ -4,6 +4,41 @@
 
 # SCRUM
 
+¿De donde surge el nombre SCRUM?
+
+- El termino Scrum surge de un tipo de formación que se realiza en el deporte `Ruby` donde todo el equipo se mueve como una unidad en la misma dirección
+
+¿Qué es SCRUM?
+- Es un proceso en el que se aplican de manera regular un conjunto de buenas prácticas para trabajar colaborativamente, en equipo y obtener el mejor resultado posible de proyectos
+
+Pilares fundamentales
+
+<details>
+  <summary>TRANSPARENCIA</summary>
+  se basa en dejar muy clara toda la información que se genere en el proyecto, para que todos los miembros tengan igual conocimiento de lo que ocurre.
+  Cuando cada integrante del equipo de trabajo sabe exactamente lo que sucede en todas las etapas del proyecto, tendrá mejor entendimiento y una visión global del mismo.
+</details>
+
+<details>
+  <summary>INSPECCION</summary>
+  Es importante realizar la inspección continua de los artefactos y del progreso del de proyecto en el sprint, así poder identificar fallas y hacer los correctivos necesarios.
+  Este proceso tiene como finalidad principal que todo fluya de forma organizada en el proyecto y el equipo Scrum,
+</details>
+<details>
+  <summary>ADAPTACIÓN</summary>
+  Permite al equipo acoplarse al nuevo lineamiento sin problema.
+  En el desarrollo del Sprint, si se observa algo que se puede mejorar, se ajustará, y por lo tanto todo el equipo Scrum deberá también adaptarse a ese cambio.
+  Este contexto será la clave para alcanzar el éxito en proyectos de mayor envergadura, ya que requieren constantemente ajustes.
+</details>
+
+Valores y Principios Ágiles
+Hay muchas formas para ser agil pero ser agil es un cambio de cultura empresarial y es realmente vivir 4 valores y ser guiado por 12 principios
+con esto se puede producir de una forma más rápida, darle valor al usuario final
+y va a resultar todo más fácil
+Los 4 valores son
+
+
+<br>
 <details>
   <summary>12 Principios ágiles</summary>
     <ol>
@@ -23,6 +58,12 @@
 </details> 
 <br>
 <br>
+
+La diferencia entre SCRUM y Metodología Agíl:
+-  SCRUM es un marco para realizar el trabajo, mientras que la metodología ágil es una mentalidad.
+- SCRUM se basa en el aprendizaje continuo y en la adaptación a los factores fluctuantes. Reconoce que el equipo no lo sabe todo al inicio de un proyecto y evolucionará a través de la experiencia
+- Scrum está estructurado para ayudar a los equipos a adaptarse de forma natural a las condiciones cambiantes y a los requisitos de los usuarios, con el cambio de prioridades integrado en el proceso y ciclos de lanzamiento breves para que tu equipo pueda aprender y mejorar constantemente.
+
 
 # Typescript
  
