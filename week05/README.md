@@ -70,3 +70,24 @@ La diferencia entre SCRUM y Metodología Agíl:
 # Typescript
  
 Fundamentos
+
+¿Qué es Typescript?
+- TypeScript es un lenguaje de código abierto desarrollado por Microsoft, es de Tipado estatico. Se trata de un supraconjunto de JavaScript, Esto significa que todo el código JavaScript es también código TypeScript, por lo que un programa escrito en TypeScript puede consumir JavaScript sin problemas. De hecho, puede convertir un archivo JavaScript en TypeScript simplemente cambiando el nombre de la extensión de .js a .ts.
+
+¿Qué es npm?
+
+- npm responde a las siglas de Node Package Manager o manejador de paquetes de node, es la herramienta por defecto de JavaScript para la tarea de compartir e instalar paquetes.
+
+¿Qué es package.json?
+
+- package.json
+Este archivo indica a npm que el directorio en el que se encuentra es en efecto un proyecto o paquete npm. Este archivo contiene la información del paquete incluyendo la descripción del mismo, versión, autor y más importante aún dependencias.
+
+Este archivo es generado automáticamente mediante la ejecución de un script de npm: npm init este script es ejecutao para inicializar un proyecto JavaScript, al ejecutarlo la linea de comandos te hará algunas preguntas para crear el paquete
+
+¿Qué es npx?
+- npx es también una herramienta CLI cuyo propósito es facilitar la instalación y la gestión de las dependencias alojadas en el registro npm.
+
+Ahora es muy fácil ejecutar cualquier tipo de ejecutable basado en Node.js que normalmente se instalaría a través de npm.
+
+Relación entre Typescript y Javascript
