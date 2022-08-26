@@ -6,7 +6,7 @@
 
 ¿De donde surge el nombre SCRUM?
 
-- El termino Scrum surge de un tipo de formación que se realiza en el deporte `Ruby` donde todo el equipo se mueve como una unidad en la misma dirección
+- El termino Scrum surge de un tipo de formación que se realiza en el deporte `Rugby` donde todo el equipo se mueve como una unidad en la misma dirección
 
 ¿Qué es SCRUM?
 - Es un proceso en el que se aplican de manera regular un conjunto de buenas prácticas para trabajar colaborativamente, en equipo y obtener el mejor resultado posible de proyectos
