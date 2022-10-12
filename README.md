@@ -5,6 +5,7 @@
 |Completo|Week 1 | [Introduction to programming & Javascript](./week01/README.md)
 |Completo |Week 2 | [Javascript](./week02/README.md)
 |Completo |Week 3 | [Javascript](./week03/README.md)
+|En curso |Desafios| [Desafios](./desafios/README.md)
 |Completo |Week 4 | [Javascript, Canvas & Pause Day](./week04/README.md)
 |En curso  |Week 5 | [End Of Month, SCRUM & Typescript](./week05/README.md)
 |En curso  |Week 6 | [Typescript](./week06/README.md)
