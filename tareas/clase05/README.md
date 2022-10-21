@@ -76,3 +76,6 @@ Convertir esos números a un array y:
 2.  Obtener el número más pequeño y mostrarlo en un `<em>` pre-creado con el texto "El número más pequeño es..."
 3.  Obtener el número más grande y mostrarlo en un `<em>` pre-creado con el texto "El número más grande es..."
 4.  Obtener el número que más se repite y mostrarlo en un `<em>` pre-creado con el texto "El número más frecuente es..."
+
+4 -[RESOLUCION HTML](./tarea04/index.html) |
+[RESOLUCION JS](./tarea04/script.js)
